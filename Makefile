@@ -15,6 +15,6 @@ helloplus.o: hello.cpp
 clean:
 	rm -f *.o hello helloplus
 
-test: hello
+test: all
 	./hello
 	./helloplus
